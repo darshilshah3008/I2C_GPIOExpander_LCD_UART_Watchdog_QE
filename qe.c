@@ -38,17 +38,17 @@
 //-----------------------------------------------------------------------------
 
 // Initialize Hardware
-void initHw()
+/*void initHw()
 {
     // Initialize system clock to 40 MHz
     initSystemClockTo40Mhz();
-}
+}*/
 
 //-----------------------------------------------------------------------------
 // Main
 //-----------------------------------------------------------------------------
 
-int main(void)
+/*int main(void)
 {
     int32_t pos;
     char str[80];
@@ -68,4 +68,4 @@ int main(void)
 
         waitMicrosecond(250000);
     }
-}
+}*/
