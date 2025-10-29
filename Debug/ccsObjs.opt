@@ -1,1 +1,15 @@
-"./I2C_LCD&ExpanderGPIO-IO_QE_UART.obj" "./clock.obj" "./gpio.obj" "./i2c0.obj" "./i2c0_lcd.obj" "./nvic.obj" "./qei0.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart0.obj" "./wait.obj" "./wd0.obj" "../tm4c123gh6pm.cmd" -llibc.a 
+"./I2C_LCD&ExpanderGPIO-IO_QE_UART.obj"
+"./clock.obj"
+"./gpio.obj"
+"./i2c0.obj"
+"./i2c0_lcd.obj"
+"./nvic.obj"
+"./qe.obj"
+"./qei0.obj"
+"./tm4c123gh6pm_startup_ccs.obj"
+"./uart0.obj"
+"./wait.obj"
+"./watchdog.obj"
+"./wd0.obj"
+"../tm4c123gh6pm.cmd"
+-llibc.a

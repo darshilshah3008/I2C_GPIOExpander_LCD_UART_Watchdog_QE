@@ -44,7 +44,7 @@
 //-----------------------------------------------------------------------------
 
 // Initialize Hardware
-void initHw()
+/*void initHw()
 {
     // Initialize system clock to 40 MHz
     initSystemClockTo40Mhz();
@@ -57,23 +57,23 @@ void initHw()
     selectPinPushPullOutput(RED_LED);
     selectPinDigitalInput(PUSH_BUTTON);
     enablePinPullup(PUSH_BUTTON);
-}
+}*/
 
 // Watchdog timer ISR
-void watchdogIsr()
+/*void watchdogIsr()
 {
     setPinValue(RED_LED, 1);
     setPinValue(GREEN_LED, 0);
     // This is the last chance to avoid a reset
     // Write to ICR to avoid a reset
 //    WATCHDOG0_ICR_R = 0;
-}
+}*/
 
 //-----------------------------------------------------------------------------
 // Main
 //-----------------------------------------------------------------------------
 
-int main(void)
+/*int main(void)
 {
 	// Initialize hardware
 	initHw();
@@ -104,4 +104,4 @@ int main(void)
 	    setPinValue(GREEN_LED, !getPinValue(GREEN_LED));
 	    waitMicrosecond(100000);
 	}
-}
+}*/
